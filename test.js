@@ -5,6 +5,7 @@ describe('Array', () => {
    it('test', () => {
      assert.equal(-1, [1,2,3].indexOf(0))
      console.log('CICD HELLO WORLD')
+     assert.equal(-1, [1,2,3].indexOf(-1))
    });
  }); 
 });
